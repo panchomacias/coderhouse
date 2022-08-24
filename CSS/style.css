@@ -1,0 +1,144 @@
+/* Index */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(6, 6, 6, 0.558158297498687) 21%,
+    rgba(35, 42, 43, 1) 80%
+  );
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 0px 10px;
+  color: #e7dfc6;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("../assets/imgs/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  background-size: cover;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e7dfc6;
+}
+.pfooter {
+  padding: 50px;
+  color: #e7dfc6;
+}
+
+/* Laflacagorda */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(6, 6, 6, 0.558158297498687) 21%,
+    rgba(35, 42, 43, 1) 80%
+  );
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 0px 10px;
+  color: #e7dfc6;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo__img {
+  width: 50px;
+}
+
+.logo__img img {
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.goypancho {
+  display: flex;
+  padding: 20px;
+  height: 900px;
+  margin: 50px;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.lfg {
+  display: flex;
+}
+
+.cambio {
+  text-align: center;
+}
+
+.laflacaypancho {
+  text-align: center;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  background-size: cover;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e7dfc6;
+}
+.pfooter {
+  padding: 50px;
+  color: #e7dfc6;
+}
