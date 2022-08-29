@@ -1,144 +1,96 @@
-/* Index */
-
 * {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
-nav {
+/* INDEX */
+
+ul {
+  margin: 0 0 32 0;
+  padding: 60px;
   text-align: center;
-  padding: 40px;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(6, 6, 6, 0.558158297498687) 21%,
-    rgba(35, 42, 43, 1) 80%
-  );
 }
 
 ul li {
+  list-style: none;
   display: inline-block;
 }
 
 ul li a {
   text-decoration: none;
-  padding: 0px 10px;
-  color: #e7dfc6;
-  font-family: "Poppins", sans-serif;
+  margin: 35px;
 }
 
-body {
-  background-image: url("../assets/imgs/banner.png");
-  background-size: cover;
+/* Bannerhero */
+.bannerhero {
+  background-image: url("../assets/imgs/banner2.png");
+  height: 80%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  background-color: black;
   background-size: cover;
+  position: relative;
 }
 
-footer a {
-  text-decoration: none;
-  color: #e7dfc6;
-}
-.pfooter {
-  padding: 50px;
-  color: #e7dfc6;
+/* Parrafo */
+.grid-container {
+  padding: 70px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
 }
 
-/* Laflacagorda */
-* {
-  padding: 0px;
-  margin: 0px;
+.caja {
+  padding: 95px;
+}
+
+.caja-imagen {
+  background-color: black;
+  padding: 44px;
+  margin: 0 90;
+  height: 336px;
+}
+.item {
+  text-align: center;
+  justify-content: center;
+  width: 250px;
+  padding: 35px;
+}
+
+/* Gallery */
+#gallery-container {
+  display: flex;
+  flex-flow: wrap;
+  object-fit: cover;
+  max-width: 1200px;
+  margin: 2px auto;
+  justify-content: center;
   box-sizing: border-box;
+  position: relative;
 }
 
-nav {
-  text-align: center;
-  padding: 40px;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(6, 6, 6, 0.558158297498687) 21%,
-    rgba(35, 42, 43, 1) 80%
-  );
+img {
+  width: 250px;
+  height: 200px;
+  max-width: 1200px;
+  width: 300px;
+  object-fit: cover;
+  padding: 1px;
 }
-
-ul li {
-  display: inline-block;
-}
-
-ul li a {
-  text-decoration: none;
-  padding: 0px 10px;
-  color: #e7dfc6;
-  font-family: "Poppins", sans-serif;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.logo__img {
-  width: 50px;
-}
-
-.logo__img img {
-  width: 100%;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-.goypancho {
-  display: flex;
-  padding: 20px;
-  height: 900px;
-  margin: 50px;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-  border-radius: 15px;
-  justify-content: center;
-}
-
-.lfg {
-  display: flex;
-}
-
-.cambio {
-  text-align: center;
-}
-
-.laflacaypancho {
-  text-align: center;
+img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  animation: 0.5s;
 }
 
 footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  margin: 0 0 32 0;
+  padding: 60px;
   text-align: center;
-  padding: 20px;
   background-color: black;
-  background-size: cover;
+  margin: 50 0 0 0;
 }
 
-footer a {
-  text-decoration: none;
-  color: #e7dfc6;
-}
-.pfooter {
-  padding: 50px;
-  color: #e7dfc6;
+.footertexto {
+  color: white;
 }
