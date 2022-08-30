@@ -1,65 +1,71 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <base href="https://panchomacias.github.io/coderhouse/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <header>
-      <!-- Nav -->
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">LAFLACAGORDA</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SUSTENTABILIDAD</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-    </header>
-    <!-- Banner hero -->
+    <header></header>
     <section>
-      <div class="bannerhero"></div>
-    </section>
-    <!-- Section grid -->
-    <section>
-      <div class="grid-container">
-        <div class="caja">
-          <h3>Menu</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            consequuntur natus, tempore eveniet temporibus aliquid architecto
-            laborum fuga nobis itaque eius reprehenderit! Dignissimos voluptas
-            ab voluptatem, ratione commodi numquam sed.
-          </p>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/imgs/gallery1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/imgs/gallery2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/imgs/gallery3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
         </div>
-        <div class="caja-imagen">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum
-          mollitia minima id explicabo animi excepturi ipsum dicta incidunt
-          autem.
-        </div>
-        <div class="caja-negra"></div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
-    <!-- Photo gallery -->
-    <section>
-      <div id="gallery-container">
-        <img src="./assets/imgs/gallery1.jpg" alt="" />
-        <img src="./assets/imgs/gallery2.jpg" alt="" />
-        <img src="./assets/imgs/gallery3.jpg" alt="" />
-        <img src="./assets/imgs/gallery4.jpg" alt="" />
-        <img src="./assets/imgs/gallery5.jpg" alt="" />
-        <img src="./assets/imgs/gallery6.jpg" alt="" />
-        <img src="./assets/imgs/gallery7.jpg" alt="" />
-        <img src="./assets/imgs/gallery8.jpg" alt="" />
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footertexto">
-        <p>LAFLACAGORDA | Hecho con corazón | BRC, Argentina</p>
-      </div>
-    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
