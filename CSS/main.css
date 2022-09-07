@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+header nav {
+  background-color: #1e1e24;
+  padding: 30px;
+  display: flex;
+  justify-content: center; }
+  header nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    text-align: center; }
+  header nav a {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #f7f0f0; }
+    header nav a:hover {
+      cursor: pointer;
+      transition: all 0, 4s ease;
+      background-color: #49c6e5;
+      color: #f7f0f0;
+      border-radius: 3px;
+      padding: 1px; }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column; } }
+
+.col1 {
+  background-color: #1e1e24;
+  color: #f7f0f0;
+  font-family: "Fjalla One", sans-serif; }
+  .col1 h3 {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 35px;
+    text-align: center; }
+  .col1 p {
+    margin: 17px; }
+
+.col3 {
+  background-color: #1e1e24;
+  color: #f7f0f0;
+  font-family: "Fjalla One", sans-serif; }
+  .col3 h3 {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 35px;
+    text-align: center; }
+  .col3 .button {
+    margin: 5px;
+    text-align: center; }
+    .col3 .button:hover {
+      cursor: pointer;
+      transition: all 0, 4s ease;
+      color: #49c6e5;
+      padding: 1px; }
+
+.container-banner .row .banner1 {
+  color: #1e1e24;
+  font-family: "Fjalla One", sans-serif;
+  padding: 50px; }
+
+.container-fluid {
+  background-color: #1e1e24;
+  padding: 20px; }
+  .container-fluid .row {
+    justify-content: center; }
+    .container-fluid .row h4 {
+      font-family: "Fjalla One", sans-serif;
+      color: #f7f0f0; }
+    .container-fluid .row p {
+      font-family: "Fjalla One", sans-serif;
+      color: #f7f0f0; }
