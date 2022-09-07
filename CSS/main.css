@@ -61,14 +61,14 @@ header nav {
   font-family: "Fjalla One", sans-serif;
   padding: 50px; }
 
-.container-fluid {
+.footer_container {
   background-color: #1e1e24;
   padding: 20px; }
-  .container-fluid .row {
+  .footer_container .row {
     justify-content: center; }
-    .container-fluid .row h4 {
+    .footer_container .row h4 {
       font-family: "Fjalla One", sans-serif;
       color: #f7f0f0; }
-    .container-fluid .row p {
+    .footer_container .row p {
       font-family: "Fjalla One", sans-serif;
       color: #f7f0f0; }
