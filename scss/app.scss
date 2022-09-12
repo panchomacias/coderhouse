@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 @import "./colors.scss";
 @import "./typo.scss";
 @import "./base/header.scss";
-@import "./sections/card.scss";
 @import "./sections/banner2.scss";
 @import "./base/footer.scss";
+@import "./card.scss";

@@ -1,9 +1,15 @@
-.container-banner {
-  .row {
-    .banner1 {
-      color: $primary-color;
-      font-family: $primary-typo;
-      padding: 50px;
-    }
-  }
+.bannerhero {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px 5px 0px;
+  width: 100%;
+  height: auto;
+}
+
+.bannerhero2 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px 5px 0px;
+  width: 100%;
+  height: auto;
 }
