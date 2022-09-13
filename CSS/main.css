@@ -51,22 +51,35 @@ button {
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-.bannerhero {
-  display: flex;
-  flex-direction: column;
-  padding: 5px 0px 5px 0px;
-  width: 100%;
-  height: auto; }
+.banner2img {
+  width: 100%; }
 
-.bannerhero2 {
-  display: flex;
-  flex-direction: column;
-  padding: 5px 0px 5px 0px;
-  width: 100%;
-  height: auto; }
+.banner {
+  margin-top: 5px; }
 
-.card_container {
-  display: flex; }
+footer {
+  background-color: #1e1e24;
+  display: flex;
+  justify-content: left;
+  padding: 40px 20%;
+  align-items: center;
+  margin-top: 5px; }
+
+footer ul {
+  list-style: none; }
+
+footer li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 15px;
+  color: #f7f0f0;
+  font-family: "Fjalla One", sans-serif; }
+
+.card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 5px; }
 
 .card1 {
   background-color: #1e1e24;
@@ -109,12 +122,6 @@ button {
   text-align: center;
   justify-content: flex-start; }
 
-.card4text .card4text p {
-  color: #49c6e5; }
-
-.card4text .color4text h3 {
-  color: #1e1e24; }
-
 @media (max-width: 600px) {
   .card_container {
     flex-flow: column wrap;
@@ -130,3 +137,97 @@ button {
   .cardimg {
     height: auto;
     width: 100%; } }
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.text h4 {
+  text-align: center;
+  color: #1e1e24;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 40px;
+  position: relative;
+  text-decoration: 5px underline;
+  text-decoration-color: #0b7a75; }
+
+.text h3 {
+  text-align: center;
+  color: #1e1e24;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px; }
+
+.text p {
+  text-align: center;
+  color: #1e1e24;
+  font-family: "Cairo", sans-serif; }
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.text2 h4 {
+  text-align: center;
+  color: #1e1e24;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 40px;
+  position: relative;
+  text-decoration: 5px underline;
+  text-decoration-color: #0b7a75; }
+
+.text2 h3 {
+  text-align: center;
+  color: #1e1e24;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px; }
+
+.text2 p {
+  text-align: center;
+  color: #1e1e24;
+  font-family: "Cairo", sans-serif; }
+
+.textimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.imgline {
+  width: 10%; }
+
+.imglocation {
+  width: 5%; }
+
+.imgabout {
+  width: 5%; }
+
+.video {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto; }
+
+footer {
+  background-color: #1e1e24;
+  display: flex;
+  justify-content: left;
+  padding: 40px 20%;
+  align-items: center;
+  margin-top: 5px; }
+
+footer ul {
+  list-style: none; }
+
+footer li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 15px;
+  color: #f7f0f0;
+  font-family: "Fjalla One", sans-serif; }

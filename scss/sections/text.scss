@@ -1,0 +1,72 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h4 {
+  text-align: center;
+  color: $primary-color;
+  font-family: $primary-typo;
+  font-size: 40px;
+  position: relative;
+  text-decoration: 5px underline;
+  text-decoration-color: $active-color;
+}
+.text h3 {
+  text-align: center;
+  color: $primary-color;
+  font-family: $primary-typo;
+  font-size: 20px;
+}
+.text p {
+  text-align: center;
+  color: $primary-color;
+  font-family: $secondary-typo;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text2 h4 {
+  text-align: center;
+  color: $primary-color;
+  font-family: $primary-typo;
+  font-size: 40px;
+  position: relative;
+  text-decoration: 5px underline;
+  text-decoration-color: $active-color;
+}
+.text2 h3 {
+  text-align: center;
+  color: $primary-color;
+  font-family: $primary-typo;
+  font-size: 20px;
+}
+.text2 p {
+  text-align: center;
+  color: $primary-color;
+  font-family: $secondary-typo;
+}
+
+.textimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgline {
+  width: 10%;
+}
+
+.imglocation {
+  width: 5%;
+}
+.imgabout {
+  width: 5%;
+}

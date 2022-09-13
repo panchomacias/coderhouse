@@ -1,5 +1,8 @@
-.card_container {
+.card {
   display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .card1 {
@@ -44,14 +47,6 @@
   margin: -100px auto;
   text-align: center;
   justify-content: flex-start;
-}
-.card4text {
-  .card4text p {
-    color: $hover-color;
-  }
-  .color4text h3 {
-    color: $primary-color;
-  }
 }
 
 @media (max-width: 600px) {

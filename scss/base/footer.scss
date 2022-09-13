@@ -1,0 +1,20 @@
+footer {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: left;
+  padding: 40px 20%;
+  align-items: center;
+  margin-top: 5px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 15px;
+  color: $secondary-color;
+  font-family: $primary-typo;
+}
