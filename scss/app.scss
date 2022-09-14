@@ -3,6 +3,8 @@
   padding: 0px;
   margin: 0px;
 }
+// HOME
+
 @import "./base/colors.scss";
 @import "./base/typo.scss";
 @import "./base/header.scss";
@@ -12,3 +14,6 @@
 @import "./sections/text.scss";
 @import "./sections/video.scss";
 @import "./base/footer.scss";
+
+// LAFLACAGORDA
+@import "./sections/cardlfg.scss";

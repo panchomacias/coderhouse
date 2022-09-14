@@ -1,8 +1,8 @@
 .card {
-  display: flex;
-  flex-direction: row;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .card1 {
@@ -14,6 +14,7 @@
   padding: 4%;
   text-align: center;
   display: flex;
+  flex-direction: column;
 }
 .card1 p {
   font-family: $secondary-typo;
@@ -33,6 +34,7 @@
   padding: 4%;
   text-align: center;
   display: flex;
+  flex-direction: column;
 }
 .card3 p {
   font-family: $secondary-typo;
