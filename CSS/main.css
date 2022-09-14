@@ -8,7 +8,7 @@ header {
   background-color: #1e1e24;
   display: flex;
   justify-content: center;
-  padding: 40px 20%;
+  padding: 5% 20%;
   align-items: center; }
   header .nav_links {
     list-style: none;
@@ -32,9 +32,9 @@ button {
   color: #f7f0f0;
   font-weight: 500;
   font-size: 16px;
-  padding: 5px 10px;
+  padding: 5%;
   border: none;
-  border-radius: 10px;
+  border-radius: 20%;
   background-color: #0b7a75;
   cursor: pointer;
   transition: all 0.3s ease 0s; }
@@ -51,11 +51,35 @@ button {
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+.banner2 {
+  display: flex;
+  margin-top: 1%;
+  width: 100%;
+  height: auto; }
+
 .banner2img {
-  width: 100%; }
+  width: 100%;
+  height: auto; }
 
 .banner {
-  margin-top: 5px; }
+  display: flex;
+  margin-top: 0.5%;
+  width: 100%;
+  height: auto; }
+
+.bannerimg {
+  width: 100%;
+  height: auto; }
+
+.banner4 {
+  display: flex;
+  margin-top: 0.5%;
+  width: 100%;
+  height: auto; }
+
+.banner4img {
+  width: 100%;
+  height: auto; }
 
 footer {
   background-color: #1e1e24;
@@ -87,21 +111,16 @@ footer li {
   height: auto;
   color: #f7f0f0;
   font-family: "Fjalla One", sans-serif;
-  padding: 30px;
-  margin: 0px 5px 0px 0px;
-  text-align: center; }
+  padding: 4%;
+  text-align: center;
+  display: flex; }
 
 .card1 p {
   font-family: "Cairo", sans-serif; }
 
 .cardimg {
-  display: block;
   width: 100%;
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;
-  height: auto;
-  margin: 0px 5px 0px 0px; }
+  height: auto; }
 
 .card3 {
   background-color: #1e1e24;
@@ -109,8 +128,9 @@ footer li {
   height: auto;
   color: #f7f0f0;
   font-family: "Fjalla One", sans-serif;
-  padding: 30px;
-  text-align: center; }
+  padding: 4%;
+  text-align: center;
+  display: flex; }
 
 .card3 p {
   font-family: "Cairo", sans-serif; }

@@ -11,22 +11,17 @@
   height: auto;
   color: $secondary-color;
   font-family: $primary-typo;
-  padding: 30px;
-  margin: 0px 5px 0px 0px;
+  padding: 4%;
   text-align: center;
+  display: flex;
 }
 .card1 p {
   font-family: $secondary-typo;
 }
 
 .cardimg {
-  display: block;
   width: 100%;
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;
   height: auto;
-  margin: 0px 5px 0px 0px;
 }
 
 .card3 {
@@ -35,8 +30,9 @@
   height: auto;
   color: $secondary-color;
   font-family: $primary-typo;
-  padding: 30px;
+  padding: 4%;
   text-align: center;
+  display: flex;
 }
 .card3 p {
   font-family: $secondary-typo;

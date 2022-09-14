@@ -2,7 +2,7 @@ header {
   background-color: $primary-color;
   display: flex;
   justify-content: center;
-  padding: 40px 20%;
+  padding: 5% 20%;
   align-items: center;
   .nav_links {
     list-style: none;
@@ -31,9 +31,9 @@ button {
   color: $secondary-color;
   font-weight: 500;
   font-size: 16px;
-  padding: 5px 10px;
+  padding: 5%;
   border: none;
-  border-radius: 10px;
+  border-radius: 20%;
   background-color: $active-color;
   cursor: pointer;
   transition: all 0.3s ease 0s;
