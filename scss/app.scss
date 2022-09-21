@@ -8,12 +8,11 @@
 @import "./base/colors.scss";
 @import "./base/typo.scss";
 @import "./base/header.scss";
-@import "./sections/banner2.scss";
-@import "./base/footer.scss";
+@import "./banner.scss";
 @import "./card.scss";
-@import "./sections/text.scss";
-@import "./sections/video.scss";
+@import "./sections/index/text.scss";
 @import "./base/footer.scss";
 
 // LAFLACAGORDA
-@import "./sections/cardlfg.scss";
+@import "./sections/laflacagorda/cardslfg.scss";
+@import "./sections/laflacagorda/video.scss";

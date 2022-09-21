@@ -2,7 +2,7 @@ header {
   background-color: $primary-color;
   display: flex;
   justify-content: center;
-  padding: 5% 20%;
+  padding: 6% 20%;
   align-items: center;
   .nav_links {
     list-style: none;
@@ -21,7 +21,7 @@ header {
   li a {
     font-family: $primary-typo;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: $secondary-color;
     text-decoration: none;
   }

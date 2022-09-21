@@ -8,7 +8,7 @@ header {
   background-color: #1e1e24;
   display: flex;
   justify-content: center;
-  padding: 5% 20%;
+  padding: 6% 20%;
   align-items: center; }
   header .nav_links {
     list-style: none;
@@ -23,7 +23,7 @@ header {
   header li a {
     font-family: "Fjalla One", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #f7f0f0;
     text-decoration: none; }
 
@@ -51,218 +51,186 @@ button {
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-.banner2 {
-  display: flex;
-  margin-top: 1%;
-  width: 100%;
-  height: auto; }
+body,
+html {
+  height: 100%; }
 
-.banner2img {
-  width: 100%;
-  height: auto; }
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/imgs/banner2.png");
+  /* Set a specific height */
+  height: 50%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+/* Place text in the middle of the image */
+.hero-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .banner {
+  background-image: url("../assets/imgs/banner3.png");
+  width: 60%;
+  min-height: 780px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 6%; }
+
+.banner2 {
+  background-image: url("../assets/imgs/bannner4.png");
+  width: 60%;
+  min-height: 515px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.firstinfo.container {
   display: flex;
-  margin-top: 0.5%;
-  width: 100%;
-  height: auto; }
+  margin-top: 6%; }
 
-.bannerimg {
-  width: 100%;
-  height: auto; }
+.secondinfo.container {
+  display: flex; }
 
-.banner4 {
+.index {
+  flex: 1 0 0%;
+  justify-content: center;
   display: flex;
-  margin-top: 0.5%;
-  width: 100%;
-  height: auto; }
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1e24;
+  margin: 2px; }
 
-.banner4img {
-  width: 100%;
-  height: auto; }
+.index {
+  transition: all 0.3s ease 0s; }
+  .index:hover {
+    cursor: pointer; }
+
+.index p {
+  font-family: "Fjalla One", sans-serif;
+  color: #f7f0f0;
+  text-align: center; }
+
+.index h4 {
+  font-family: "Cairo", sans-serif;
+  color: #f7f0f0;
+  text-align: center;
+  width: 40%; }
+
+.col img {
+  width: 100%; }
+
+.textinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%; }
+
+.textinfo img {
+  width: 4%; }
+
+.text_info1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: center; }
 
 footer {
-  background-color: #1e1e24;
+  padding: 6% 20%;
+  background-color: #1e1e24; }
+
+footer p {
   display: flex;
-  justify-content: left;
-  padding: 40px 20%;
-  align-items: center;
-  margin-top: 5px; }
-
-footer ul {
-  list-style: none; }
-
-footer li {
-  text-decoration: none;
-  display: inline-block;
-  padding: 0px 15px;
+  justify-content: center;
   color: #f7f0f0;
   font-family: "Fjalla One", sans-serif; }
 
-.card {
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
-  margin-top: 1%;
-  margin-bottom: 1%; }
+.lfgmain {
+  margin-top: 3%; }
 
-.card1 {
-  background-color: #1e1e24;
-  width: 100%;
-  height: auto;
-  color: #f7f0f0;
-  font-family: "Fjalla One", sans-serif;
-  padding: 4%;
-  text-align: center;
+.lfgtext {
   display: flex;
-  flex-direction: column; }
-
-.card1 p {
-  font-family: "Cairo", sans-serif; }
-
-.cardimg {
-  width: 100%;
-  height: auto; }
-
-.card3 {
-  background-color: #1e1e24;
-  width: 100%;
-  height: auto;
-  color: #f7f0f0;
-  font-family: "Fjalla One", sans-serif;
-  padding: 4%;
-  text-align: center;
-  display: flex;
-  flex-direction: column; }
-
-.card3 p {
-  font-family: "Cairo", sans-serif; }
-
-.card4 {
-  display: flex;
-  width: 50%;
-  margin: -100px auto;
-  text-align: center;
-  justify-content: flex-start; }
-
-@media (max-width: 600px) {
-  .card_container {
-    flex-flow: column wrap;
-    display: flex; }
-  .card1 {
-    padding: 20px;
-    text-align: center;
-    justify-content: center; }
-  .card1 p {
-    font-size: small; }
-  .card1 h4 {
-    font-size: medium; }
-  .cardimg {
-    height: auto;
-    width: 100%; } }
-
-.text {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center; }
 
-.text h4 {
-  text-align: center;
-  color: #1e1e24;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 40px;
-  position: relative;
-  text-decoration: 5px underline;
-  text-decoration-color: #0b7a75; }
+.lfg {
+  display: flex; }
 
-.text h3 {
-  text-align: center;
-  color: #1e1e24;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 20px; }
-
-.text p {
-  text-align: center;
-  color: #1e1e24;
-  font-family: "Cairo", sans-serif; }
-
-.text2 {
+.lfg.col {
+  flex: 1 0 0%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center; }
-
-.text2 h4 {
-  text-align: center;
-  color: #1e1e24;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 40px;
-  position: relative;
-  text-decoration: 5px underline;
-  text-decoration-color: #0b7a75; }
-
-.text2 h3 {
-  text-align: center;
-  color: #1e1e24;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 20px; }
-
-.text2 p {
-  text-align: center;
-  color: #1e1e24;
-  font-family: "Cairo", sans-serif; }
-
-.textimg {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.imgline {
-  width: 10%; }
-
-.imglocation {
-  width: 5%; }
-
-.imgabout {
-  width: 5%; }
-
-.video {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto; }
-
-footer {
-  background-color: #1e1e24;
-  display: flex;
-  justify-content: left;
-  padding: 40px 20%;
   align-items: center;
-  margin-top: 5px; }
+  flex-direction: column;
+  padding: 3%; }
 
-footer ul {
-  list-style: none; }
-
-footer li {
-  text-decoration: none;
-  display: inline-block;
-  padding: 0px 15px;
-  color: #f7f0f0;
-  font-family: "Fjalla One", sans-serif; }
-
-.lfgsvg {
+.lfg img {
   width: 20%; }
 
-.lfgcontainer-info {
+.lfg p {
+  text-align: center; }
+
+.lfg2 {
+  display: flex; }
+
+.lfg2.col {
+  flex: 1 0 0%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-direction: column;
+  padding: 3%; }
 
-.cardlg {
-  width: 33%;
-  padding: 4%; }
+.lfg2 img {
+  width: 20%; }
+
+.lfg2 p {
+  text-align: center; }
+
+.mainbox.container {
+  margin-top: 10%; }
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.boxgeneral.container {
+  display: flex; }
+
+.box {
+  flex: 1 0 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  position: relative; }
+
+.box img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover; }
+
+.boxtext {
+  width: 85%;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  top: 270; }
+
+.video {
+  display: flex;
+  width: 100%;
+  justify-content: center; }

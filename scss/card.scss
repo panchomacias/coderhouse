@@ -1,70 +1,41 @@
-.card {
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+.firstinfo.container {
+  display: flex;
+  margin-top: 6%;
 }
 
-.card1 {
-  background-color: $primary-color;
-  width: 100%;
-  height: auto;
-  color: $secondary-color;
-  font-family: $primary-typo;
-  padding: 4%;
-  text-align: center;
+.secondinfo.container {
+  display: flex;
+}
+
+.index {
+  flex: 1 0 0%;
+  justify-content: center;
   display: flex;
   flex-direction: column;
-}
-.card1 p {
-  font-family: $secondary-typo;
-}
-
-.cardimg {
-  width: 100%;
-  height: auto;
-}
-
-.card3 {
+  align-items: center;
   background-color: $primary-color;
-  width: 100%;
-  height: auto;
-  color: $secondary-color;
-  font-family: $primary-typo;
-  padding: 4%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  margin: 2px;
 }
-.card3 p {
-  font-family: $secondary-typo;
-}
-.card4 {
-  display: flex;
-  width: 50%;
-  margin: -100px auto;
-  text-align: center;
-  justify-content: flex-start;
+.index {
+  transition: all 0.3s ease 0s;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
-@media (max-width: 600px) {
-  .card_container {
-    flex-flow: column wrap;
-    display: flex;
-  }
-  .card1 {
-    padding: 20px;
-    text-align: center;
-    justify-content: center;
-  }
-  .card1 p {
-    font-size: small;
-  }
-  .card1 h4 {
-    font-size: medium;
-  }
-  .cardimg {
-    height: auto;
-    width: 100%;
-  }
+.index p {
+  font-family: $primary-typo;
+  color: $secondary-color;
+  text-align: center;
+}
+
+.index h4 {
+  font-family: $secondary-typo;
+  color: $secondary-color;
+  text-align: center;
+  width: 40%;
+}
+
+.col img {
+  width: 100%;
 }
