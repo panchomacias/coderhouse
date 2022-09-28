@@ -3,16 +3,18 @@
   padding: 0px;
   margin: 0px;
 }
-// HOME
-
+// BASE
 @import "./base/colors.scss";
 @import "./base/typo.scss";
-@import "./base/header.scss";
-@import "./banner.scss";
-@import "./card.scss";
-@import "./sections/index/text.scss";
-@import "./base/footer.scss";
 
+// HOME
+@import "./header.scss";
+@import "./banner.scss";
+@import "./cardsindex.scss";
+@import "./titlesindex.scss";
+@import "./faq.scss";
+@import "./base/footer.scss";
 // LAFLACAGORDA
-@import "./sections/laflacagorda/cardslfg.scss";
-@import "./sections/laflacagorda/video.scss";
+
+@import "./cardslfg.scss";
+@import "./videolfg.scss";
