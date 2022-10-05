@@ -1,23 +1,23 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Fjalla+One&display=swap");
-* {
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px; }
-
 .banner__hero {
   background-image: url("../assets/imgs/mainbanner.jpg");
   height: 50vh;
   background-position: center;
   background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .banner__hero__text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center; }
+  text-align: center;
+}
+
+.banner__hero__text h5 {
+}
+.banner__hero__text h2 {
+}
 
 .banner2__hero {
   background-image: url("../assets/imgs/montañita.jpg");
@@ -25,12 +25,17 @@
   background-position: center;
   background-size: cover;
   margin-top: 2rem;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 @media screen and (max-width: 480px) {
   .banner__hero {
-    max-height: 235px; }
+    max-height: 235px;
+  }
   .banner__hero__text {
-    top: 200px; }
+    top: 200px;
+  }
   .banner2__hero {
-    margin-top: 0rem; } }
+    margin-top: 0rem;
+  }
+}

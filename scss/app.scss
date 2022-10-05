@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+// BASE
+@import "./base/header.scss";
+@import "./base/banner.scss";
+@import "./base/footer.scss";
+@import "./base/colors.scss";
+@import "./base/typo.scss";
+
+// INDEX
